@@ -428,6 +428,7 @@ a{
 
 
 .footers_logo{
+    
 }
 .logotip_footer{
     width: 160px;
@@ -658,7 +659,7 @@ address p{
     
 }
 
-/*! hero section end */
+/*!! hero section end */
 
 
 /* **! clients section part start  ** */
@@ -689,7 +690,7 @@ address p{
 }
 
 .clients_logo{
-
+    
 }
 
 
@@ -697,4 +698,106 @@ address p{
 
 /*************? About page end *************/
 
+
+/**********? contsct page start **********/
+
+.contackt{
+    padding-bottom: 0;
+}
+
+.contackt_section{
+    background-image: url("/images/icons/Group\ 8.png"), url("../images/icons/Group\ 4.png");
+    background-repeat: no-repeat,no-repeat;
+    background-position: left center, right bottom;
+    background-color: #014E56;
+    padding-top: 124px;
+    padding-bottom: 124px;
+}
+
+.contacks_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left_box_text{
+    
+}
+
+.contack_word{
+    margin: 0;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+
+.ask{
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #F67E7E;
+}
+
+.information_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+.information_box p{
+    margin-left: 23px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.right_box_input{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+    width: 540px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.inputs_mesage{
+    margin-bottom: 24px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 58px;
+    width: 540px;
+    border-bottom: 1px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: #014E56; 
+}
+
+.contackt-btn{
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 9px 32px 11px 32px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #004047;
+}
+
+
+
+
+/**********? contsct page end **********/
 
